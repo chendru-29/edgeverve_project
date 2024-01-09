@@ -1,0 +1,106 @@
+.table-wrapper{
+    padding: 20px;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    
+    .btn-wrapper{
+        margin-right: 50px;
+        button{
+          margin: 0px 5px;
+          border: none;
+          border-radius: 5px;
+          padding: 5px 20px;
+          font-size: 14px;
+        }
+        .download-btn{
+            background-color: #FFFFFF;
+            color: #217DF3;
+        }
+        .create-btn{
+            background-color:#217DF3;
+            color: #FFFFFF;
+        }
+    }
+}
+.filter-wrapper{
+    margin-top: 30px;
+
+    .filter-values{
+        height: auto;
+        border: 1px solid #80979797;
+        border-style: groove;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .heading{
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .filter-data{
+        padding: 0px 20px;
+        .project-name{
+            color: #979797 ;
+            font-weight: 500;
+            font-size: 14px;
+        }
+    }
+}
+
+#expansion-title{
+    color: #979797 ;
+    font-size: 14px;
+}
+
+.mat-expansion-panel{
+    box-shadow: none;
+    border: #000000;
+}
+
+.mat-tab-label-active, .mat-focus-indicato{
+    background-color: #217DF3;
+    color: #FFFFFF;
+}
+
+table.mat-table{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.mat-tab-label-active{
+    background-color: #217DF3;
+}
+.redirct-btn{
+    text-align: end;
+    background-color: #FFFFFF;
+    color: #217DF3;
+}
+.selected-chip{
+    background-color: #000000;
+    color: #FFFFFF;
+    .remove-icon{
+        margin-left: 5px;
+    
+    }
+}
+
+.clear-txt{
+    margin-left: 5px;
+    font-weight: 500;
+    color: #217DF3;
+}
+
+.supplier-bg{
+    background-color: #E4F2FC;
+    padding: 5px;
+}

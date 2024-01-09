@@ -1,0 +1,21 @@
+
+   
+          <mat-drawer-container class="sidenav-container">
+            <mat-drawer mode="side" opened class="sidebar mx-auto"> 
+                <mat-icon id="mat-icons">menu</mat-icon>
+                <div class="icons-wrapper">                   
+                    <mat-icon id="mat-icons" class="selected-icon">send</mat-icon>
+                </div>
+                <mat-icon id="mat-icons">delete</mat-icon>
+                <mat-icon id="mat-icons">info</mat-icon>
+                <mat-icon id="mat-icons"> chat_bubble</mat-icon>
+                <mat-icon id="mat-icons">flag</mat-icon>
+                <mat-icon id="mat-icons">style</mat-icon>
+                <mat-icon id="mat-icons">shopping_cart</mat-icon>
+                <mat-icon id="mat-icons">people</mat-icon>
+
+            </mat-drawer>
+            <mat-drawer-content>
+                <router-outlet></router-outlet>
+            </mat-drawer-content>
+          </mat-drawer-container>

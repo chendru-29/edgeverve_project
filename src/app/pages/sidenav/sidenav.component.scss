@@ -1,0 +1,31 @@
+.sidenav-container{
+    width: 100%;
+    height: 100vh;
+
+    .sidebar{
+      width: 50px;
+    
+    }
+}
+
+#mat-icons{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+.mat-drawer-inner-container {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    justify-content: center;
+    display: flex;
+}
+
+.icons-wrapper{
+    background-color: #E4F2FC;
+    align-items: center;
+    .selected-icon{
+        color: #0058C9;
+    }
+}

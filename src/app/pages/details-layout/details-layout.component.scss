@@ -1,0 +1,149 @@
+.detail-wrapper{
+    padding: 20px;
+    .mat-card{
+        margin: 0px 2px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .card-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .mat-card-content{
+        display: flex;
+        justify-content: right;
+        flex-direction: column;
+        align-items: center;
+    }
+    .document-status-wrapper{
+        background-color: #FFFFFF;
+        padding: 20px;
+        height: 100%;
+    }
+
+   .progress-bar{
+        width: 100%;    
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .unassigned{
+        width: 100%;
+        background-color: red;
+    }
+    .assigned{
+        width: 100%;
+        background-color: orange;
+    }
+    .tagged{
+        width: 100%;
+        background-color: lightgreen;
+    }
+    .trained{
+        width: 100%;
+        background-color: green;
+    }
+    .color-indicator{
+       width: 20px;
+       height: 20px;
+    }
+    .indicator-content{
+        display: flex;
+        flex-direction: row;
+        margin-right: 5px;
+        p{
+            font-size: 14px;
+            margin-left: 5px;
+        }
+    }
+    .data-indicator{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      .table-wrapper{
+        background-color: #FFFFFF;
+        padding: 20px;
+      }
+      .form-values-wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .basic-info{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-text-field__input{
+        background-color: rgba(0, 0, 0, .87);;
+      }
+      .mat-form-field {
+        display: inline-block;
+        position: relative;
+        text-align: left;
+        width: 100%;
+        margin-right: 30px;
+    }
+    .basic-form{
+        display: flex;
+        // flex-wrap: wrap;
+        background-color: #FFFFFF;
+    }
+    .parameter-form{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #FFFFFF;
+        .mat-form-field {
+            display: inline-block;
+            position: relative;
+            text-align: left;
+            width: auto;
+            margin-right: 30px;
+        }
+    }
+
+ 
+    
+}.mat-form-field-appearance-legacy .mat-form-field-infix{
+    background: #f0f0f0 !important;
+}
+.header-layout{
+    box-shadow: none;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: nones;
+    background: #f4f8fc;
+}
+.cancel-btn{
+  width: 100px;
+  background-color: #fff;
+  color: #217DF3;
+  margin-right: 10px;
+}
+.save-btn{
+    width: 100px;
+    background-color: #217DF3;
+    color: #fff;
+}
+
+.back-key{
+    margin-right: 5px;
+}
+.mat-form-field-appearance-legacy .mat-form-field-infix{
+    padding: 0.4375em 0;
+    background: #e4e4e4 !important;
+}
+
+.data-count{
+    font-size: 32px;
+    color:#47C1BF
+}
