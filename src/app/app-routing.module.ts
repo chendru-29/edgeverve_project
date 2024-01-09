@@ -6,6 +6,7 @@ import { SidenavComponent } from "./pages/sidenav/sidenav.component";
 import { ThemeWrapperComponent } from "./pages/theme-wrapper/theme-wrapper.component";
 
 const routes: Routes = [
+  { path: '', redirectTo: '/list', pathMatch: 'full' },
   {
     path: "",
     component: ThemeWrapperComponent,
